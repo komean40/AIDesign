@@ -1,0 +1,20 @@
+{
+  "warm_start": {
+    "test_accuracy": 0.4333333373069763,
+    "train_accuracy": 0.699999988079071,
+    "grid_agreement": 0.47550834179852275,
+    "seed": 21,
+    "steps": 3500,
+    "learning_rate": 0.01,
+    "final_training_loss": 0.590904176235199
+  },
+  "fresh_start": {
+    "test_accuracy": 1.0,
+    "train_accuracy": 1.0,
+    "grid_agreement": 0.9904271620667688,
+    "seed": 21,
+    "steps": 3500,
+    "learning_rate": 0.01,
+    "final_training_loss": 0.0006317637744359672
+  }
+}

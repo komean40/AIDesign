@@ -1,0 +1,303 @@
+{
+  "data_seed": 42,
+  "split_seed": 17,
+  "train_size": 280,
+  "test_size": 120,
+  "inside_radius_max": 0.85,
+  "outside_radius_min": 1.15,
+  "grid_note": "Uniform-grid agreement measures boundary shape, not held-out sample accuracy.",
+  "models": {
+    "relu_4": {
+      "activation": "relu",
+      "width": 4,
+      "seed": 21,
+      "steps": 3500,
+      "learning_rate": 0.01,
+      "train_accuracy": 1.0,
+      "test_accuracy": 0.9833333333333333,
+      "uniform_grid_agreement": 0.9488989514643343,
+      "output_bias": 5.862517356872559,
+      "neurons": [
+        {
+          "index": 0,
+          "input_weights": [
+            -0.6211163997650146,
+            -6.431028842926025
+          ],
+          "hidden_bias": 6.958364963531494,
+          "output_weight": -7.094897747039795,
+          "x2_zero_crossing": 11.202996253967285
+        },
+        {
+          "index": 1,
+          "input_weights": [
+            -6.853871822357178,
+            -7.6661505699157715
+          ],
+          "hidden_bias": 2.0354838371276855,
+          "output_weight": 5.675539493560791,
+          "x2_zero_crossing": 0.2969830632209778
+        },
+        {
+          "index": 2,
+          "input_weights": [
+            7.213489055633545,
+            -5.935049533843994
+          ],
+          "hidden_bias": 0.4298461675643921,
+          "output_weight": 5.775733947753906,
+          "x2_zero_crossing": -0.059589218348264694
+        },
+        {
+          "index": 3,
+          "input_weights": [
+            0.047743260860443115,
+            0.15462863445281982
+          ],
+          "hidden_bias": -0.5028178691864014,
+          "output_weight": -0.3735085129737854,
+          "x2_zero_crossing": 10.53170394897461
+        }
+      ]
+    },
+    "relu_8": {
+      "activation": "relu",
+      "width": 8,
+      "seed": 21,
+      "steps": 3500,
+      "learning_rate": 0.01,
+      "train_accuracy": 1.0,
+      "test_accuracy": 1.0,
+      "uniform_grid_agreement": 0.9785988533255281,
+      "output_bias": -1.4058759212493896,
+      "neurons": [
+        {
+          "index": 0,
+          "input_weights": [
+            0.8206148743629456,
+            -3.04367733001709
+          ],
+          "hidden_bias": 4.091324329376221,
+          "output_weight": -3.573906898498535,
+          "x2_zero_crossing": -4.985681533813477
+        },
+        {
+          "index": 1,
+          "input_weights": [
+            -5.154747009277344,
+            -1.9260157346725464
+          ],
+          "hidden_bias": -0.015777450054883957,
+          "output_weight": 3.1609559059143066,
+          "x2_zero_crossing": -0.003060761373490095
+        },
+        {
+          "index": 2,
+          "input_weights": [
+            -2.775343418121338,
+            -4.171075820922852
+          ],
+          "hidden_bias": -1.1355935335159302,
+          "output_weight": 3.3059074878692627,
+          "x2_zero_crossing": -0.40917226672172546
+        },
+        {
+          "index": 3,
+          "input_weights": [
+            1.120997428894043,
+            -2.9127755165100098
+          ],
+          "hidden_bias": 3.677257776260376,
+          "output_weight": -3.7579922676086426,
+          "x2_zero_crossing": -3.2803444862365723
+        },
+        {
+          "index": 4,
+          "input_weights": [
+            1.1277248859405518,
+            3.0804388523101807
+          ],
+          "hidden_bias": -0.2803339958190918,
+          "output_weight": 3.531841278076172,
+          "x2_zero_crossing": 0.24858367443084717
+        },
+        {
+          "index": 5,
+          "input_weights": [
+            1.9135395288467407,
+            -7.081946849822998
+          ],
+          "hidden_bias": -0.6536838412284851,
+          "output_weight": 3.7834274768829346,
+          "x2_zero_crossing": 0.34160980582237244
+        },
+        {
+          "index": 6,
+          "input_weights": [
+            -0.16743743419647217,
+            0.1754664182662964
+          ],
+          "hidden_bias": -0.628548264503479,
+          "output_weight": -0.27781620621681213,
+          "x2_zero_crossing": -3.7539291381835938
+        },
+        {
+          "index": 7,
+          "input_weights": [
+            6.935351371765137,
+            -2.8223462104797363
+          ],
+          "hidden_bias": -0.5407555103302002,
+          "output_weight": 4.321499824523926,
+          "x2_zero_crossing": 0.07797089219093323
+        }
+      ]
+    },
+    "tanh_4": {
+      "activation": "tanh",
+      "width": 4,
+      "seed": 21,
+      "steps": 3500,
+      "learning_rate": 0.01,
+      "train_accuracy": 1.0,
+      "test_accuracy": 0.9833333333333333,
+      "uniform_grid_agreement": 0.9466090459875002,
+      "output_bias": 6.98779296875,
+      "neurons": [
+        {
+          "index": 0,
+          "input_weights": [
+            -3.342846632003784,
+            -0.8576281666755676
+          ],
+          "hidden_bias": 2.4277803897857666,
+          "output_weight": -9.985052108764648,
+          "x2_zero_crossing": 0.7262613773345947
+        },
+        {
+          "index": 1,
+          "input_weights": [
+            1.846449851989746,
+            -1.791854739189148
+          ],
+          "hidden_bias": 1.856701135635376,
+          "output_weight": -10.1809663772583,
+          "x2_zero_crossing": -1.0055519342422485
+        },
+        {
+          "index": 2,
+          "input_weights": [
+            -0.027884244918823242,
+            0.04718939587473869
+          ],
+          "hidden_bias": 3.473968744277954,
+          "output_weight": 8.6235990524292,
+          "x2_zero_crossing": 124.58536529541016
+        },
+        {
+          "index": 3,
+          "input_weights": [
+            0.5493221282958984,
+            2.4151546955108643
+          ],
+          "hidden_bias": 1.71562922000885,
+          "output_weight": -9.802680969238281,
+          "x2_zero_crossing": -3.1231751441955566
+        }
+      ]
+    },
+    "tanh_8": {
+      "activation": "tanh",
+      "width": 8,
+      "seed": 21,
+      "steps": 3500,
+      "learning_rate": 0.01,
+      "train_accuracy": 1.0,
+      "test_accuracy": 1.0,
+      "uniform_grid_agreement": 0.9727105249565262,
+      "output_bias": 5.803511619567871,
+      "neurons": [
+        {
+          "index": 0,
+          "input_weights": [
+            1.157167673110962,
+            -4.6886162757873535
+          ],
+          "hidden_bias": 3.8094708919525146,
+          "output_weight": -7.345028400421143,
+          "x2_zero_crossing": -3.292064666748047
+        },
+        {
+          "index": 1,
+          "input_weights": [
+            -2.6303176879882812,
+            -3.4854001998901367
+          ],
+          "hidden_bias": -3.3352365493774414,
+          "output_weight": 3.7808022499084473,
+          "x2_zero_crossing": -1.2679976224899292
+        },
+        {
+          "index": 2,
+          "input_weights": [
+            -4.660824298858643,
+            -2.7087366580963135
+          ],
+          "hidden_bias": 4.748879909515381,
+          "output_weight": -4.875113010406494,
+          "x2_zero_crossing": 1.018892765045166
+        },
+        {
+          "index": 3,
+          "input_weights": [
+            4.28757905960083,
+            -0.4796065390110016
+          ],
+          "hidden_bias": 3.9300739765167236,
+          "output_weight": -6.163154602050781,
+          "x2_zero_crossing": -0.9166184067726135
+        },
+        {
+          "index": 4,
+          "input_weights": [
+            -0.00016486190725117922,
+            0.006088560912758112
+          ],
+          "hidden_bias": 3.0900590419769287,
+          "output_weight": 8.170303344726562,
+          "x2_zero_crossing": 18743.31640625
+        },
+        {
+          "index": 5,
+          "input_weights": [
+            4.0157470703125,
+            -0.3678342401981354
+          ],
+          "hidden_bias": -3.0876095294952393,
+          "output_weight": 4.050395965576172,
+          "x2_zero_crossing": 0.7688754796981812
+        },
+        {
+          "index": 6,
+          "input_weights": [
+            0.0007561007514595985,
+            0.006700232159346342
+          ],
+          "hidden_bias": -3.368673086166382,
+          "output_weight": -7.080080032348633,
+          "x2_zero_crossing": 4455.3232421875
+        },
+        {
+          "index": 7,
+          "input_weights": [
+            1.6774606704711914,
+            -5.516570568084717
+          ],
+          "hidden_bias": -4.912100315093994,
+          "output_weight": 5.171083450317383,
+          "x2_zero_crossing": 2.928295373916626
+        }
+      ]
+    }
+  }
+}
